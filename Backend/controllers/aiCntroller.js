@@ -212,7 +212,7 @@ export const resumeReview = async (req, res) => {
         },
       ],
       temperature: 0.7,
-      max_tokens: length,
+      // max_tokens: length,
     });
 
     const content = response.choices[0].message.content
